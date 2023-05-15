@@ -16,12 +16,12 @@ public class Main {
                 .address("Sumy")
                 .name("Vladik")
                 .build();
-//        studentRepository.save(s1);
+        studentRepository.save(s1);
 
-//        List<Student> students = studentRepository.findAll();
-//        System.out.println(students);
-//        Student student = studentRepository.findById(1488);
-//        System.out.println(student);
+        List<Student> students = studentRepository.findAll();
+        System.out.println(students);
+        Student student = studentRepository.findById(1488);
+        System.out.println(student);
 
 
 
